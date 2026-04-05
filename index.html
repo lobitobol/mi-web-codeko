@@ -1,0 +1,1348 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeko</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+
+    <header id="header">
+      <nav class="navbar" id="navbar">
+        <img
+          src="image/logo_vertical-Photoroom.png"
+          alt="Logo CODEKO"
+          class="logo"
+        />
+
+        <!-- Botón hamburguesa (solo mobile) -->
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="" onclick="closeMenu()">Inicio</a></li>
+          <li><a href="#servicios" onclick="closeMenu()">Servicios</a></li>
+          <li><a href="#productos" onclick="closeMenu()">Proyectos</a></li>
+          <li><a href="#sobre-nosotros" onclick="closeMenu()">Nosotros</a></li>
+          <li><a href="#ck-contacto" onclick="closeMenu()">Contactos</a></li>
+        </ul>
+        <div id="espaciolibre"></div>
+      </nav>
+      <!-- HERO -->
+      <div class="hero">
+        <div class="hero-content">
+          <img src="image/Logo-Photoroom.png" class="hero-logo" />
+
+          <h1>
+            Desarrollo de Software a Medida <br />
+            Para Empresas Modernas
+          </h1>
+
+          <p>
+            En Codeko desarrollamos soluciones digitales modernas, escalables y
+            seguras que impulsan el crecimiento de tu negocio
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="cards-container" id="servicios">
+      <div class="card">
+        <div class="circulo">
+          <img src="image/image (1).png" alt="" />
+        </div>
+        <h3>Desarrollo Web</h3>
+        <p>Sitios rapidos y escalables con las mejores tecnologias</p>
+      </div>
+
+      <div class="card">
+        <div class="circulo">
+          <img src="image/image (2).png" alt="" />
+        </div>
+        <h3>Aplicaciones moviles</h3>
+        <p>Sitios rapidos y escalables con las mejores tecnologias</p>
+      </div>
+      <div class="card">
+        <div class="circulo">
+          <img src="image/image (3).png" alt="" />
+        </div>
+        <h3>Sistemas a medida</h3>
+        <p>Sitios rapidos y escalables con las mejores tecnologias</p>
+      </div>
+      <div class="card">
+        <div class="circulo">
+          <img src="image/image (4).png" alt="" />
+        </div>
+        <h3>Integraciones y apis</h3>
+        <p>Sitios rapidos y escalables con las mejores tecnologias</p>
+      </div>
+    </section>
+
+    <div id="cuerpo">
+      <article class="proyecto">
+        <img src="image/img_sistema_inventario.png" alt="Proyecto 1" />
+
+        <div class="contenido">
+          <h3>Sistema de Ventas</h3>
+          <p>Gestión completa de inventario y ventas.</p>
+
+          <div class="extra1">
+            <p>✔ Backend en .NET</p>
+            <p>✔ Base de datos SQL Server</p>
+            <p>✔ Reportes en tiempo real</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="proyecto">
+        <img src="image/img_sistema_app.png" alt="Proyecto 2" id="img_cel" />
+
+        <div class="contenido">
+          <h3>Aplicación Móvil</h3>
+          <p>Gestión de pedidos en tiempo real.</p>
+
+          <div class="extra1">
+            <p>✔ Android (Java)</p>
+            <p>✔ API REST</p>
+            <p>✔ Notificaciones push</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="proyecto">
+        <img src="image/images.png" alt="Proyecto 3" />
+
+        <div class="contenido">
+          <h3>API Empresarial</h3>
+          <p>Integración de sistemas empresariales.</p>
+
+          <div class="extra1">
+            <p>✔ Seguridad JWT</p>
+            <p>✔ Alto rendimiento</p>
+            <p>✔ Escalable</p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div id="productos">
+      <div class="grid">
+        <!-- CARD 1 -->
+        <div class="card1">
+          <span class="badge">Gestión</span>
+          <img src="image/productos (1).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión Hotelera</h3>
+            <p>
+              Optimiza cada operación de tu hotel: desde la reserva hasta el
+              check-out, con control total en tiempo real.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Usuarios</li>
+                  <li>Clientes</li>
+                  <li>Habitaciones</li>
+                  <li>Reservas</li>
+                  <li>Check-in / Check-out</li>
+                  <li>Facturación / Pagos</li>
+                  <li>Reportes</li>
+                  <li>Servicios adicionales</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Gestión completa de reservas</li>
+                  <li>Control de habitaciones en tiempo real</li>
+                  <li>Registro detallado de clientes</li>
+                  <li>Facturación automática integrada</li>
+                  <li>Generación de reportes avanzados</li>
+                  <li>Interfaz intuitiva y amigable</li>
+                  <li>Alto rendimiento y estabilidad</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card1">
+          <span class="badge">Gestion</span>
+          <img src="image/productos (2).png" />
+          <div class="content1">
+            <h3>Sistema Gestión de Inventario</h3>
+            <p>Agiliza tus procesos de gestión de inventario con un sistema</p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Inventario</li>
+                  <li>Entradas y salidas</li>
+                  <li>Reportes</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Gestión eficiente del inventario</li>
+                  <li>Interfaz simple y intuitiva</li>
+                  <li>Compatible con impresoras y escáneres</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card1">
+          <span class="badge">ERP</span>
+          <img src="image/productos (3).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión para Restaurantes</h3>
+            <p>
+              Controla mesas, pedidos, cocina y caja en un solo sistema diseñado
+              para la agilidad del sector gastronómico.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Mesas y comandas</li>
+                  <li>Cocina (KDS)</li>
+                  <li>Caja y facturación</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Gestión de pedidos en tiempo real</li>
+                  <li>Control de inventario de ingredientes</li>
+                  <li>Reportes de ventas por turno</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card1">
+          <span class="badge">Stock</span>
+          <img src="image/productos (4).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión para Farmacias</h3>
+            <p>
+              Administra medicamentos, stock y ventas con alertas de vencimiento
+              y control total de tu inventario farmacéutico.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Inventario de medicamentos</li>
+                  <li>Ventas y recetas</li>
+                  <li>Reportes y estadísticas</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Alertas de stock mínimo y vencimiento</li>
+                  <li>Control de lotes en tiempo real</li>
+                  <li>Gestión de proveedores integrada</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <!-- CARD 5 -->
+        <div class="card1">
+          <span class="badge">Gestión</span>
+          <img src="image/productos2 (1).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión para Gimnasios</h3>
+            <p>
+              Controla el acceso, membresías y asistencia de tus socios con un
+              sistema moderno y eficiente.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Control de acceso biométrico</li>
+                  <li>Membresías y pagos</li>
+                  <li>Gestión de socios</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Registro de asistencia automático</li>
+                  <li>Alertas de membresía por vencer</li>
+                  <li>Reportes de afluencia en tiempo real</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card1">
+          <span class="badge">Gestión</span>
+          <img src="image/productos2 (2).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión Clínica</h3>
+            <p>
+              Digitaliza la atención médica de tu clínica: citas, historiales
+              clínicos y facturación en un solo lugar.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Citas y agenda médica</li>
+                  <li>Historial clínico electrónico</li>
+                  <li>Facturación y seguros</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Gestión de pacientes centralizada</li>
+                  <li>Recordatorios automáticos de citas</li>
+                  <li>Reportes médicos y estadísticos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="card1">
+          <span class="badge">Finanzas</span>
+          <img src="image/productos2 (3).png" />
+          <div class="content1">
+            <h3>Sistema de Créditos y Préstamos</h3>
+            <p>
+              Gestiona solicitudes, aprobaciones y cobranzas de préstamos con
+              total seguridad y trazabilidad financiera.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Solicitudes de crédito</li>
+                  <li>Amortización y cuotas</li>
+                  <li>Cobranza y morosidad</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Cálculo automático de intereses</li>
+                  <li>Alertas de vencimiento de cuotas</li>
+                  <li>Reportes financieros detallados</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="card1">
+          <span class="badge">Gestión</span>
+          <img src="image/productos2 (4).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión para Barberías</h3>
+            <p>
+              Administra citas, servicios y clientes de tu barbería con una
+              solución rápida, moderna y fácil de usar.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Agenda de citas online</li>
+                  <li>Servicios y precios</li>
+                  <li>Historial de clientes</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Reservas en tiempo real</li>
+                  <li>Notificaciones automáticas al cliente</li>
+                  <li>Control de caja diaria</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="card1">
+          <span class="badge">Educación</span>
+          <img src="image/productos2 (5).png" />
+          <div class="content1">
+            <h3>Sistema de Gestión Educativa</h3>
+            <p>
+              Digitaliza la administración de tu institución: matrículas, notas,
+              asistencia y comunicación en un solo sistema.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Matrículas y estudiantes</li>
+                  <li>Calificaciones y asistencia</li>
+                  <li>Comunicación docente-padre</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Reportes académicos automáticos</li>
+                  <li>Interfaz para docentes y admin</li>
+                  <li>Control de pagos de pensiones</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="card1">
+          <span class="badge">Gestión</span>
+          <img src="image/productos3.png" />
+          <div class="content1">
+            <h3>Sistema de Gestión de Condominios</h3>
+            <p>
+              Administra unidades, cuotas, mantenimiento y residentes de tu
+              condominio de forma ordenada y transparente.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Registro de residentes</li>
+                  <li>Cuotas y pagos</li>
+                  <li>Solicitudes de mantenimiento</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Control de pagos y morosos</li>
+                  <li>Comunicación con residentes</li>
+                  <li>Reportes financieros del condominio</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 11 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/producto4 (1).png" />
+          <div class="content1">
+            <h3>Sitio Web para Despacho de Abogados</h3>
+            <p>
+              Presencia digital profesional para tu firma legal: servicios,
+              equipo y contacto con imagen de confianza y autoridad.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Presentación de servicios legales</li>
+                  <li>Perfil del equipo de abogados</li>
+                  <li>Formulario de consulta</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño profesional y elegante</li>
+                  <li>Optimizado para SEO</li>
+                  <li>Adaptable a móviles y tablets</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 12 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/producto4 (2).png" />
+          <div class="content1">
+            <h3>Sitio Web para Taller Mecánico</h3>
+            <p>
+              Muestra tus servicios automotrices, genera confianza en tus
+              clientes y recibe solicitudes de trabajo en línea.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Catálogo de servicios</li>
+                  <li>Solicitud de cita online</li>
+                  <li>Galería de trabajos realizados</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño dinámico y profesional</li>
+                  <li>Integración con WhatsApp</li>
+                  <li>Responsive y rápido</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 13 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/producto4 (3).png" />
+          <div class="content1">
+            <h3>Sitio Web para Fotógrafo Profesional</h3>
+            <p>
+              Portfolio visual impactante que muestra tu talento, atrae clientes
+              y convierte visitas en contrataciones.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Galería de portafolio</li>
+                  <li>Paquetes y precios</li>
+                  <li>Formulario de cotización</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño visual y artístico</li>
+                  <li>Carga optimizada de imágenes</li>
+                  <li>Integración con redes sociales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 14 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/producto4 (4).png" />
+          <div class="content1">
+            <h3>Sitio Web para Servicio de Limpieza</h3>
+            <p>
+              Proyecta profesionalismo y genera confianza: presenta tus
+              servicios de limpieza y recibe solicitudes en línea.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Catálogo de servicios</li>
+                  <li>Solicitud de presupuesto</li>
+                  <li>Testimonios de clientes</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño limpio y moderno</li>
+                  <li>Integración con WhatsApp</li>
+                  <li>Optimizado para Google</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 15 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto5 (1).png" />
+          <div class="content1">
+            <h3>Sitio Web para Servicios de Camping</h3>
+            <p>
+              Atrae aventureros y viajeros con una web que muestra tus
+              instalaciones, paquetes y disponibilidad de campamentos.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Galería de instalaciones</li>
+                  <li>Paquetes y tarifas</li>
+                  <li>Reserva en línea</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño aventurero y atractivo</li>
+                  <li>Calendario de disponibilidad</li>
+                  <li>Integración con mapas y ubicación</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 16 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto5 (2).png" />
+          <div class="content1">
+            <h3>Sitio Web para Clínica Dental</h3>
+            <p>
+              Genera confianza en tus pacientes con una presencia digital
+              profesional que destaca tus tratamientos y tu equipo.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Servicios odontológicos</li>
+                  <li>Agenda de citas online</li>
+                  <li>Perfil del equipo médico</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño clínico y profesional</li>
+                  <li>Formulario de citas integrado</li>
+                  <li>Optimizado para búsquedas locales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 17 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto5 (3).png" />
+          <div class="content1">
+            <h3>Sitio Web para Servicios de Plomería</h3>
+            <p>
+              Capta más clientes locales con una web que transmite confianza,
+              muestra tu experiencia y facilita el contacto inmediato.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Catálogo de servicios</li>
+                  <li>Zona de cobertura</li>
+                  <li>Solicitud de emergencia</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Botón de llamada directa</li>
+                  <li>Integración con WhatsApp</li>
+                  <li>SEO local optimizado</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 18 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto5 (4).png" />
+          <div class="content1">
+            <h3>Sitio Web para Gimnasio y Salud Física</h3>
+            <p>
+              Motiva a nuevos miembros con una web energética que presenta tus
+              planes, instalaciones y logros de tus atletas.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Planes y membresías</li>
+                  <li>Horarios de clases</li>
+                  <li>Registro de interesados</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño dinámico y motivador</li>
+                  <li>Galería de instalaciones</li>
+                  <li>Integración con redes sociales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 19 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto6 (1).png" />
+          <div class="content1">
+            <h3>Sitio Web para Soporte TI</h3>
+            <p>
+              Muestra tu expertise tecnológico, servicios de soporte y
+              soluciones IT con una presencia digital sólida y confiable.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Servicios de soporte técnico</li>
+                  <li>Planes de mantenimiento</li>
+                  <li>Ticket de soporte online</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño tecnológico y moderno</li>
+                  <li>Chat de soporte integrado</li>
+                  <li>Portafolio de proyectos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 20 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto6 (2).png" />
+          <div class="content1">
+            <h3>Sitio Web para Clínica Veterinaria</h3>
+            <p>
+              Conecta con los dueños de mascotas: presenta tus servicios
+              veterinarios, tu equipo y facilita la agenda de citas.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Servicios veterinarios</li>
+                  <li>Citas y emergencias</li>
+                  <li>Perfil del equipo médico</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño amigable y cálido</li>
+                  <li>Formulario de citas online</li>
+                  <li>Optimizado para búsquedas locales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 21 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto6 (3).png" />
+          <div class="content1">
+            <h3>Sitio Web para Construcción y Remodelación</h3>
+            <p>
+              Exhibe tus proyectos, genera presupuestos y capta clientes que
+              buscan servicios de construcción de confianza.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Portafolio de proyectos</li>
+                  <li>Servicios y especialidades</li>
+                  <li>Solicitud de presupuesto</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Galería de obras realizadas</li>
+                  <li>Formulario de cotización</li>
+                  <li>Diseño sólido y profesional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 22 -->
+        <div class="card1">
+          <span class="badge">Web</span>
+          <img src="image/Producto6 (4).png" />
+          <div class="content1">
+            <h3>Sitio Web para Masajes y Terapias</h3>
+            <p>
+              Transmite calma, bienestar y profesionalismo con una web que
+              refleja la esencia relajante de tus servicios terapéuticos.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Catálogo de terapias</li>
+                  <li>Reserva de sesiones</li>
+                  <li>Testimonios de clientes</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Diseño sereno y relajante</li>
+                  <li>Agenda de citas online</li>
+                  <li>Integración con WhatsApp</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 23 -->
+        <div class="card1">
+          <span class="badge">API</span>
+          <img src="image/productoapi.png" />
+          <div class="content1">
+            <h3>Desarrollo y Gestión de APIs</h3>
+            <p>
+              Creamos e implementamos APIs robustas en servidores cloud para
+              conectar tus sistemas con seguridad y alto rendimiento.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Diseño de endpoints REST/GraphQL</li>
+                  <li>Autenticación y seguridad</li>
+                  <li>Documentación técnica</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Arquitectura escalable en la nube</li>
+                  <li>Monitoreo y logs en tiempo real</li>
+                  <li>Integración con sistemas externos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 24 -->
+        <div class="card1">
+          <span class="badge">Infraestructura</span>
+          <img src="image/productoinfra.jpg" />
+          <div class="content1">
+            <h3>Instalación de Infraestructura IT</h3>
+            <p>
+              Diseñamos e instalamos data centers y redes empresariales con
+              equipamiento profesional y soporte especializado.
+            </p>
+
+            <div class="extra">
+              <div>
+                <h4>📦 Módulos</h4>
+                <ul>
+                  <li>Diseño de red y cableado estructurado</li>
+                  <li>Instalación de servidores</li>
+                  <li>Seguridad y monitoreo</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>⚙️ Características</h4>
+                <ul>
+                  <li>Infraestructura de alta disponibilidad</li>
+                  <li>Soporte técnico especializado</li>
+                  <li>Escalable según el crecimiento</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="sobre-nosotros">
+      <div id="sn-parallax-wrapper">
+        <!-- FONDO PARALLAX -->
+        <div id="sn-bg-parallax">
+          <div class="sn-bg-grid"></div>
+          <div class="sn-glow1"></div>
+          <div class="sn-glow2"></div>
+          <div class="sn-glow3"></div>
+        </div>
+
+        <div id="sn-overlay"></div>
+
+        <div id="sn-contenido">
+          <!-- ── ENCABEZADO ── -->
+          <div id="sn-encabezado">
+            <h2 id="sn-titulo">
+              Transformamos ideas en
+              <span id="sn-titulo-accent">soluciones digitales</span>
+            </h2>
+            <p id="sn-subtitulo">
+              Somos un equipo apasionado por la tecnología, comprometido con
+              desarrollar software a medida que impulsa el crecimiento de tu
+              negocio.
+            </p>
+          </div>
+
+          <!-- ── STATS ── -->
+          <div id="sn-grid-stats">
+            <div class="sn-stat">
+              <span class="sn-stat-numero">+107</span>
+              <span class="sn-stat-label">Proyectos entregados</span>
+            </div>
+            <div class="sn-stat">
+              <span class="sn-stat-numero">+8</span>
+              <span class="sn-stat-label">Años de experiencia</span>
+            </div>
+            <div class="sn-stat">
+              <span class="sn-stat-numero">+89</span>
+              <span class="sn-stat-label">Clientes satisfechos</span>
+            </div>
+            <div class="sn-stat">
+              <span class="sn-stat-numero">24/7</span>
+              <span class="sn-stat-label">Soporte técnico</span>
+            </div>
+          </div>
+
+          <!-- ── VALORES (iconos) ── -->
+          <div id="sn-grid-valores">
+            <div class="sn-valor-card">
+              <span class="sn-valor-icono">💡</span>
+              <h3 class="sn-valor-titulo">Innovación</h3>
+              <p class="sn-valor-desc">
+                Desarrollamos soluciones modernas adaptadas a las necesidades
+                reales de cada cliente.
+              </p>
+            </div>
+            <div class="sn-valor-card">
+              <span class="sn-valor-icono">🤝</span>
+              <h3 class="sn-valor-titulo">Compromiso</h3>
+              <p class="sn-valor-desc">
+                Trabajamos contigo desde el primer día hasta la entrega final y
+                más allá.
+              </p>
+            </div>
+            <div class="sn-valor-card">
+              <span class="sn-valor-icono">🔒</span>
+              <h3 class="sn-valor-titulo">Confiabilidad</h3>
+              <p class="sn-valor-desc">
+                Sistemas seguros, estables y con soporte continuo para que tu
+                negocio no se detenga.
+              </p>
+            </div>
+          </div>
+
+          <!-- ── MISIÓN / VISIÓN / VALORES ── -->
+          <p class="sn-section-lbl">// Nuestra esencia</p>
+          <div class="sn-cards-grid">
+            <div class="sn-card">
+              <div class="sn-card-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+              </div>
+              <p class="sn-card-lbl">Misión</p>
+              <h3 class="sn-card-title">Nuestra razón de ser</h3>
+              <p class="sn-card-text">
+                Escribe aquí la misión de Codeko. Describe qué hacen, para quién
+                y cómo generan valor con tecnología de vanguardia.
+              </p>
+            </div>
+
+            <div class="sn-card">
+              <div class="sn-card-icon">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 8v4l3 3" />
+                </svg>
+              </div>
+              <p class="sn-card-lbl">Visión</p>
+              <h3 class="sn-card-title">Hacia dónde vamos</h3>
+              <p class="sn-card-text">
+                Describe la visión de futuro de Codeko. ¿Qué impacto quieren
+                tener en la industria tecnológica en los próximos años?
+              </p>
+            </div>
+
+            <div class="sn-card">
+              <div class="sn-card-icon">
+                <svg viewBox="0 0 24 24">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+              </div>
+              <p class="sn-card-lbl">Valores</p>
+              <h3 class="sn-card-title">Lo que nos define</h3>
+              <p class="sn-card-text">
+                Los valores que guían cada línea de código y cada decisión en
+                Codeko. Innovación, compromiso y excelencia técnica.
+              </p>
+            </div>
+          </div>
+
+          <!-- ── EQUIPO ── -->
+          <p class="sn-section-lbl">// El equipo</p>
+          <div class="sn-team-grid">
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/imagen_2026-04-04_021032297-Photoroom.png"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                  alt=""
+                />
+              </div>
+              <p class="sn-team-name">Luis Gabriel Flores Valdez</p>
+              <p class="sn-team-role">
+                Fundador &amp; Desarrollador de software
+              </p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img src="image/image.jpg" style="scale: calc(0.6)" />
+              </div>
+              <p class="sn-team-name">Carlos Montero Rojas</p>
+              <p class="sn-team-role">Analista de negocio</p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/imagen_2026-04-04_022059063.jpg"
+                  style="scale: calc(0.6)"
+                />
+              </div>
+              <p class="sn-team-name">Esteban Arias Rios</p>
+              <p class="sn-team-role">Arquitecto de software</p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/mujeres-informatica-2.jpeg"
+                  style="scale: calc(0.6)"
+                />
+              </div>
+              <p class="sn-team-name">Gloria Rivas Cruz</p>
+              <p class="sn-team-role">UI / UX Design &amp; Administradora</p>
+            </div>
+          </div>
+
+          <div class="sn-team-grid" style="margin-top: 30px">
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img src="image/fotoperfil.jpg" style="scale: calc(0.5)" />
+              </div>
+              <p class="sn-team-name">Ricardo Costas contreras</p>
+              <p class="sn-team-role">Project manager</p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/imagen_2026-04-04_021032297-Photoroom.png"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                  alt=""
+                />
+              </div>
+              <p class="sn-team-name">Moises Ruiz Soliz</p>
+              <p class="sn-team-role">Programador Senior</p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/imagen_2026-04-04_023756021.jpg"
+                  style="scale: calc(0.5)"
+                />
+              </div>
+              <p class="sn-team-name">Juan Rios Fernandez</p>
+              <p class="sn-team-role">Diseñador UX</p>
+            </div>
+
+            <div class="sn-team-card">
+              <div class="sn-avatar">
+                <img
+                  src="image/imagen_2026-04-04_024606457.jpg"
+                  style="scale: calc(0.6)"
+                />
+              </div>
+              <p class="sn-team-name">Sandra Costas Calizaya</p>
+              <p class="sn-team-role">Product owner</p>
+            </div>
+          </div>
+        </div>
+        <!-- /sn-contenido -->
+      </div>
+      <!-- /sn-parallax-wrapper -->
+    </section>
+
+    <section id="ck-contacto">
+      <div class="ck-contacto-wrapper">
+        <!-- ENCABEZADO -->
+        <div class="ck-contacto-header">
+          <h2 class="ck-contacto-titulo">
+            Solicita tu <span>software a medida</span>
+          </h2>
+          <p class="ck-contacto-subtitulo">
+            Cuéntanos tu idea y la convertimos en una solución digital
+            profesional.
+          </p>
+        </div>
+
+        <!-- FORMULARIO -->
+        <form class="ck-contacto-form" id="ckForm">
+          <div class="ck-input-group">
+            <input type="text" name="nombre" required />
+            <label>Nombre completo</label>
+          </div>
+
+          <div class="ck-input-group">
+            <input type="email" name="email" required />
+            <label>Correo electrónico</label>
+          </div>
+
+          <div class="ck-input-group">
+            <input type="tel" name="telefono" required />
+            <label>Número telefónico</label>
+          </div>
+          <div class="ck-input-group">
+            <input type="text" name="empresa" required />
+            <label>Empresa (opcional)</label>
+          </div>
+
+          <div class="ck-input-group">
+            <select name="servicio" required>
+              <option value="" disabled selected></option>
+              <option>Sistema Web</option>
+              <option>App Móvil</option>
+              <option>Sistema Empresarial</option>
+              <option>E-commerce</option>
+              <option>Otro</option>
+            </select>
+            <label>Tipo de servicio</label>
+          </div>
+
+          <div class="ck-input-group">
+            <textarea name="mensaje" rows="4" required></textarea>
+            <label>Describe tu proyecto</label>
+          </div>
+
+          <button type="submit" class="ck-btn-enviar">
+            Enviar solicitud 🚀
+          </button>
+        </form>
+      </div>
+    </section>
+    <div id="ck-popup" class="ck-popup">
+      <div class="ck-popup-box">
+        <h3>✅ Mensaje enviado</h3>
+        <p>En breve nos comunicaremos con usted</p>
+        <button onclick="cerrarPopup()">Aceptar</button>
+      </div>
+    </div>
+    <footer id="ck-footer">
+      <div class="ck-footer-wrapper">
+        <!-- LOGO -->
+        <div class="ck-footer-brand">
+          <h2 class="ck-footer-logo">Codeko</h2>
+          <p class="ck-footer-desc">
+            Desarrollamos soluciones de software modernas, seguras y escalables
+            para potenciar tu negocio.
+          </p>
+
+          <!-- REDES SOCIALES -->
+          <div class="ck-footer-social">
+            <a href="https://www.facebook.com/share/1Aof4NmVv2/" target="_blank" class="ck-social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- <a href="#"  target="_blank" class="ck-social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="ck-social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a> -->
+            <a href="https://wa.me/59169110292" target="_blank" class="ck-social-icon">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- LINKS -->
+        <div class="ck-footer-links">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Proyectos</a></li>
+            <li><a href="#sobre-nosotros">Nosotros</a></li>
+          </ul>
+        </div>
+
+        <!-- SERVICIOS -->
+        <div class="ck-footer-servicios">
+          <h3>Servicios</h3>
+          <ul>
+            <li>Desarrollo Web</li>
+            <li>Apps Móviles</li>
+            <li>Sistemas Empresariales</li>
+            <li>E-commerce</li>
+          </ul>
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="ck-footer-contacto">
+          <h3>Contacto</h3>
+          <p>📧 codeko.contact@gmail.com</p>
+          <p>📱 +591 69110292</p>
+          <p>📍 Bolivia - Santa Cruz</p>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="ck-footer-bottom">
+        <p>© 2026 Codeko. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- ICONOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+      // ── Menú hamburguesa ──
+      function toggleMenu() {
+        const nav = document.getElementById("navLinks");
+        const ham = document.getElementById("hamburger");
+        nav.classList.toggle("open");
+        ham.classList.toggle("active");
+      }
+
+      function closeMenu() {
+        document.getElementById("navLinks").classList.remove("open");
+        document.getElementById("hamburger").classList.remove("active");
+      }
+
+      // ── EmailJS ──
+      emailjs.init("ENI__BLWApNqiepfZ");
+
+      const form = document.getElementById("ckForm");
+
+      function abrirPopup() {
+        document.getElementById("ck-popup").classList.add("active");
+      }
+
+      function cerrarPopup() {
+        document.getElementById("ck-popup").classList.remove("active");
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const btn = form.querySelector("button");
+        btn.textContent = "Enviando...";
+        btn.disabled = true;
+
+        emailjs
+          .sendForm("service_kj0fu1m", "template_pjel0sr", this)
+          .then(() => {
+            form.reset();
+            abrirPopup();
+          })
+          .catch(() => {
+            alert("Error al enviar ❌");
+          })
+          .finally(() => {
+            btn.textContent = "Enviar solicitud 🚀";
+            btn.disabled = false;
+          });
+      });
+    </script>
+    <script>
+      window.onload = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "auto",
+        });
+      };
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
