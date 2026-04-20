@@ -1264,94 +1264,12 @@ img {
 /* ══════════════════════════════════════════════════════
    RESPONSIVE — TABLET  (≤ 1024px)
 ══════════════════════════════════════════════════════ */
-@media (max-width: 1024px) {
-  .logo {
-    width: 160px;
-    height: 110px;
-    margin-left: -10px;
-  }
-
-  .nav-links a {
-    font-size: 16px;
-  }
-
-  .nav-links {
-    gap: 16px;
-  }
-
-  #espaciolibre {
-    width: 80px;
-  }
-
-  #header {
-    height: 700px;
-  }
-
-  .hero-logo {
-    height: 250px;
-    transform: scale(2);
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    width: 90%;
-    font-size: 1rem;
-  }
-
-  @media (hover: none) {
-    .card:hover {
-      transform: none;
-      box-shadow: 0px 0px 10px 2px #7B2FF7;
-      /* estado normal */
-    }
-  }
-
-  .cards-container {
-    width:100%;
-    margin-top: -60px;
-    height: 450px;
-    gap: 20px;
-  }
-
-  .card {
-    width: 220px;
-    height: 380px;
-  }
-
-  .proyecto {
-    width: 85%;
-  }
-
-  .proyecto img {
-    width: 220px;
-    height: 140px;
-  }
-
-  .grid {
-      grid-template-columns: repeat(3, minmax(250px, 1fr));
-
-    margin: 20px 30px 60px;
-    column-gap: 30px;
-    row-gap: 40px;
-  }
-
-  #sn-grid-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  #sn-grid-valores {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 
 /* ══════════════════════════════════════════════════════
    RESPONSIVE — MOBILE  (≤ 768px)
 ══════════════════════════════════════════════════════ */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   body {
     margin: 0;
