@@ -1363,7 +1363,7 @@ img {
     align-items: center;
     margin-top: 30px;
     gap: 24px;
-    height: auto;
+    height: 100%;
   }
 
   @media (hover: none) {
